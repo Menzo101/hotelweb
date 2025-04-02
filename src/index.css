@@ -1,0 +1,342 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  font-size: 16px;
+}
+.homecomponent-section{
+  
+ height: 60vh;
+}
+
+.homecomponent-container{
+ background-image: url(./assets/image2.png);
+height: 50vh;
+ width: 100%;
+ background-position: center;
+ position: relative;
+ background-size: cover;
+ height: 70vh;
+  
+
+}
+.backgroundlay{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.homecomponent-content{
+  position: relative;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   height: 60vh;
+}
+.content-header {
+  color: white;
+  font-style: italic;
+
+  font-weight: lighter;
+  font-size: 96px;
+  margin: 10px 0;
+}
+ .content-one{
+  color: white;
+  margin: 10px 0;
+}
+.content-two{
+  color: white
+}
+.content-button{
+  margin-top: 15px;
+}
+.content-button button{
+  background-color: #011638;
+  padding: 15px 35px;
+  color: white;
+  font-size: 10px;
+  border: none;
+  outline: none;
+}
+/* pickdate styles */
+.pickdate-section{
+  background-color: #F0FCF6;
+  height: 20vh;
+  max-width: 1312px;
+  margin: auto;
+  position: relative;
+  top: 40px
+}
+.pickdate-container{
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+
+}
+.pickdate-one{
+  display: flex;
+  gap:30px;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  padding: 10px;
+
+}
+.allpick-btn button {
+  background-color: #011638;
+  padding: 15px 35px;
+  color: white;
+  font-size: 10px;
+  border: none;
+  outline: none;
+
+}
+.underline{
+  border: 2px solid gold;
+}
+.pickdate-button button{
+  background-color: #011638;
+}
+
+/* thirdcomponent-section styles */
+.thirdcomponent-section{
+  max-width: 1312px;
+  
+  margin: auto;
+}
+.thirdcomponent-container{
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+gap: 15px;
+
+}
+.thirdcomponent-container-one{
+  flex: 2;
+  position: relative;
+}
+.thirdcomponent-container-content{
+  flex: 1;
+}
+
+.thirdcomponent-container-one img{
+  /* width: 500px; */
+  width: 100%;
+height: 80vh;
+}
+.thirdcomponent-container-content h1{
+  font-size: 2.2rem;
+}
+.thirdcomponent-container-content{
+  align-self: center;
+}
+.thirdcomponent-overlay{
+
+  position: absolute;
+  bottom: 4rem;
+left: 9rem;
+
+  color: white;
+}
+.thirdcomponent-overlay {
+
+  text-align: center;
+}
+.thirdcomponent-btn button {
+
+  background-color: #011638;
+  padding: 15px 35px;
+margin-top: 15px;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  
+}
+.gallery-section{
+
+max-width: 1312px;
+
+height: 40vh;
+margin: auto;
+}
+.gallery-container{
+  margin-top: 70px;
+  display: flex;
+  gap: 15px;
+}
+.gallery-container-one{
+  flex: 1;
+}
+.gallery-container-two{
+  flex: 2;
+  background-color: #F0FCF6;
+  padding: 60px 10px;
+}
+.gallery-container-one{
+  line-height: 1.2;
+}
+.gallery-container-two h2{
+  line-height: 1.2
+}
+.gallery-container-two p{
+  line-height: 1.5;
+  margin-top: 15px;
+}
+.gallery-btn button {
+  background-color: #011638;
+  padding: 15px 35px;
+margin-top: 15px;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+/* display images section */
+.displayimages-section{
+  margin-top: 70px;
+  padding: 0 0 0 10px;
+
+ 
+}
+.displayimages-container{
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+
+}
+
+.displayimage-one img{
+max-width: 600px;
+  height: auto;
+object-fit: cover;
+}
+.displayimage-one{
+  flex: 2;
+
+}
+.displayimage-two img{
+  width: 600px; 
+  height: 60vh;
+  object-fit: cover;
+ 
+}
+.displayimage-two{
+  flex: 2;
+}
+.displayimage-two{
+  background-color: #F0FCF6;
+
+}
+.displayimage-three{
+  flex: 1;
+}
+.displayimage-three img{
+  
+  width: 600px;
+
+  
+
+    
+}
+.displayimage-two-content{
+  margin: 1rem 2rem;
+}
+.displayimage-two-content h1{
+  margin: 10px 0;
+}
+.displayimage-two-content p{
+  line-height: 1.2;
+}
+
+/* hotelimage-section */
+.fourth-section{
+  max-width: 1312px;
+  margin: auto;
+}
+.fourth-capper{
+  margin-top: 70px;
+}
+.fourth-container1{
+  display: flex;
+  gap: 15px;
+}
+.fourth-card img{
+ width: 100%
+}
+.fourth-header{
+  text-align: center;
+  margin: 20px 0;
+}
+.fourth-card{
+width: 100%;
+  background-color: #F0FCF6;
+}
+.fourth-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+
+@media screen and (max-width:432px){
+    .homecomponent-container{
+    display: flex;
+    max-width: 100%;
+    
+    }
+ 
+    .pickdate-container{
+      max-width: 80%;
+    }
+    .pickdate-container{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: auto;
+    }
+    .thirdcomponent-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .thirdcomponent-overlay{
+
+      position: absolute;
+      bottom: 4rem;
+    left: 5rem;
+    
+      color: white;
+    }
+    .gallery-container{
+      display: flex;
+      flex-direction: column;
+    }
+ .displayimages-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: hidden;
+
+}
+.fourth-container1{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+}
